@@ -140,8 +140,8 @@ To integrate this agent with WhatsApp, I would use the WhatsApp Business API (vi
 
 ## Sample Flow
 
-User: *"I want to try the Pro plan"*
-Agent: *"Awesome! Can I have your name?"*
+User: *"I want to try the Pro plan"* ->
+Agent: *"Awesome! Can I have your name?"* ->
 → Collects email
 → Collects platform
 → Calls `mock_lead_capture()`
