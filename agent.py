@@ -6,7 +6,7 @@ from langchain_core.prompts import PromptTemplate
 
 # SET API KEY (for local dev)
 # ---------------------------
-os.environ["GOOGLE_API_KEY"] = "AIzaSyAAsXewUIStvFhQb74bt4kG0uyAqJl5tO4"
+os.environ["GOOGLE_API_KEY"] = "Your API Key"
 
 # Load Knowledge Base
 # ---------------------------
